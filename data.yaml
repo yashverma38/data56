@@ -1,0 +1,13 @@
+train: /Users/user/Downloads/data56/train/images
+val: /Users/user/Downloads/data56/valid/images
+test: /Users/user/Downloads/data56/test/images
+
+nc: 1
+names: ['dogs']
+
+roboflow:
+  workspace: yolo-vcxib
+  project: big-dog-data
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolo-vcxib/big-dog-data/dataset/1
